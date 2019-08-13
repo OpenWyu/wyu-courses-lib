@@ -1,4 +1,5 @@
 *.py
+site/*
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
