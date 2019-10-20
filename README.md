@@ -1,8 +1,8 @@
 # 五邑大学课程资料整理分享库
 
-*(以下内容部分引用自[QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles))*
-
 ## 前言
+
+**(以下内容部分引用自[QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles))**
 
 来到一所大学，从第一次接触许多课，直到一门一门完成，这个过程中我们时常收集起许多资料和情报。
 
@@ -16,17 +16,12 @@
 
 我希望只要是前人走过的弯路，后人就不必再走。这是我的信念，也是我建立这个项目的原因。
 
-## 平台选择原因
+## 分享库资源链接
 
-为什么采用 GitHub 项目作为平台呢？我有以下一些考虑。
-
-- QQ 群大多为年级和专业所分隔，无法长期共同地保有；况且群文件也缺乏组织。
-- GitHub 项目可以使用目录进行文件组织，并且每个目录均可以在显示文件列表的同时显示一个 README，十分适合本项目的需求。
-- GitHub 带有便捷的 Issue 和 Pull Request 协作功能，并且可以方便地对贡献的质量进行监督和调整。
-
-## 在线文档
-
-[五邑大学课程资料整理分享库](https://openwyu.github.io/wyu-courses-lib/)
+- GitHub: https://github.com/OpenWyu/wyu-courses-lib
+    - 在线文档: https://openwyu.github.io/wyu-courses-lib/
+- Gitee: https://gitee.com/OpenWyu/wyu-courses-lib
+    - 在线文档: https://openwyu.gitee.io/wyu-courses-lib/
 
 ## 贡献
 
@@ -79,7 +74,7 @@
 
 ### 贡献注意
 
-- 不要修改`docs`目录下的文件,该文件夹的文件~~除了文档初始页(`index.md`)之外~~均由脚本自动生成
+- 不要修改`docs`目录下的文件,该文件夹的文件均由脚本自动生成
 - 使用`markdown`的时候,注意该文档系统的`markdown`渲染器对**无序列表**的缩进空格为`4`个
 - 对于教师的评价请一律使用**姓名拼音首字母缩写**,但你也可加上**所教班级**等等信息
 
