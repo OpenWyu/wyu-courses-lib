@@ -1,208 +1,652 @@
-<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="None">
-  
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <title>五邑大学课程资料整理分享库 - 五邑大学课程资料整理分享库</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "\u4e94\u9091\u5927\u5b66\u8bfe\u7a0b\u8d44\u6599\u6574\u7406\u5206\u4eab\u5e93";
-    var mkdocs_page_input_path = "index.md";
-    var mkdocs_page_url = null;
-  </script>
-  
-  <script src="js/jquery-2.1.1.min.js" defer></script>
-  <script src="js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
-  
-</head>
 
-<body class="wy-body-for-nav" role="document">
 
-  <div class="wy-grid-for-nav">
 
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
     
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-      <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> 五邑大学课程资料整理分享库</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="五邑大学课程资料整理分享库">
+      
+      
+        <link rel="canonical" href="https://github.com/OpenWyu/wyu-courses-lib/">
+      
+      
+        <meta name="author" content="OpenWyu">
+      
+      
+        <meta name="lang:clipboard.copy" content="复制">
+      
+        <meta name="lang:clipboard.copied" content="已复制">
+      
+        <meta name="lang:search.language" content="jp">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="没有找到符合条件的结果">
+      
+        <meta name="lang:search.result.one" content="找到 1 个符合条件的结果">
+      
+        <meta name="lang:search.result.other" content="# 个符合条件的结果">
+      
+        <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
+    
+    
+      
+        <title>五邑大学课程资料整理分享库</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.750b69bd.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        跳转至
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://github.com/OpenWyu/wyu-courses-lib/" title="五邑大学课程资料整理分享库" class="md-header-nav__button md-logo">
           
-            <li class="toctree-l1 current">
-		
-    <a class="current" href=".">五邑大学课程资料整理分享库</a>
-    <ul class="subnav">
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              五邑大学课程资料整理分享库
+            </span>
+            <span class="md-header-nav__topic">
+              本文档使用指南
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            键入以开始搜索
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
             
-    <li class="toctree-l2"><a href="#_1">五邑大学课程资料整理分享库</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l3" href="#_2">前言</a></li>
-        
-            <li><a class="toctree-l3" href="#_3">分享库资源链接</a></li>
-        
-            <li><a class="toctree-l3" href="#_4">贡献</a></li>
-        
-            <li><a class="toctree-l3" href="#_8">许可</a></li>
-        
-        </ul>
-    
 
-    </ul>
-	    </li>
+
+  
+
+<a href="https://github.com/OpenWyu/wyu-courses-lib/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    OpenWyu/wyu-courses-lib
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
           
-            <li class="toctree-l1">
-		
-    <a class="" href="SOPC/">SOPC</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="信号与系统/">信号与系统</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="单片机/">单片机</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="大学体育/">大学体育</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="大学物理/">大学物理</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="数字通信原理/">数字通信原理</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="数据结构/">数据结构</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="概率论/">概率论</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="电力牵引控制系统/">电力牵引控制系统</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="电力电子技术/">电力电子技术</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="电力系统分析/">电力系统分析</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="电子技术基础/">电子技术基础</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="电机拖动基础/">电机拖动基础</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="电磁场与电磁波/">电磁场与电磁波</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="离散数学/">离散数学</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="线性代数/">线性代数</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="计算机组成原理/">计算机组成原理</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="计算机网络原理/">计算机网络原理</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="高等数学（一）/">高等数学（一）</a>
-	    </li>
-          
-        </ul>
-      </div>
-      &nbsp;
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://github.com/OpenWyu/wyu-courses-lib/" title="五邑大学课程资料整理分享库" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    五邑大学课程资料整理分享库
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/OpenWyu/wyu-courses-lib/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    OpenWyu/wyu-courses-lib
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        本文档使用指南
+      </label>
+    
+    <a href="." title="本文档使用指南" class="md-nav__link md-nav__link--active">
+      本文档使用指南
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="前言" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="分享库相关链接" class="md-nav__link">
+    分享库相关链接
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="贡献" class="md-nav__link">
+    贡献
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="贡献步骤" class="md-nav__link">
+    贡献步骤
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="贡献规范" class="md-nav__link">
+    贡献规范
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="贡献注意" class="md-nav__link">
+    贡献注意
+  </a>
+  
+</li>
+        
+      </ul>
     </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
+  
+</li>
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">五邑大学课程资料整理分享库</a>
-      </nav>
-
+        <li class="md-nav__item">
+  <a href="#_8" title="许可" class="md-nav__link">
+    许可
+  </a>
+  
+</li>
       
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href=".">Docs</a> &raquo;</li>
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
     
       
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="SOPC/" title="SOPC" class="md-nav__link">
+      SOPC
+    </a>
+  </li>
+
     
-    <li>五邑大学课程资料整理分享库</li>
-    <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/OpenWyu/wyu-courses-lib/edit/master/docs/index.md"
-          class="icon icon-github"> Edit on GitHub</a>
       
-    </li>
+      
+
+
+  <li class="md-nav__item">
+    <a href="信号与系统/" title="信号与系统" class="md-nav__link">
+      信号与系统
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="单片机/" title="单片机" class="md-nav__link">
+      单片机
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="大学体育/" title="大学体育" class="md-nav__link">
+      大学体育
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="大学物理/" title="大学物理" class="md-nav__link">
+      大学物理
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="数字通信原理/" title="数字通信原理" class="md-nav__link">
+      数字通信原理
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="数据结构/" title="数据结构" class="md-nav__link">
+      数据结构
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="概率论/" title="概率论" class="md-nav__link">
+      概率论
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="电力牵引控制系统/" title="电力牵引控制系统" class="md-nav__link">
+      电力牵引控制系统
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="电力电子技术/" title="电力电子技术" class="md-nav__link">
+      电力电子技术
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="电力系统分析/" title="电力系统分析" class="md-nav__link">
+      电力系统分析
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="电子技术基础/" title="电子技术基础" class="md-nav__link">
+      电子技术基础
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="电机拖动基础/" title="电机拖动基础" class="md-nav__link">
+      电机拖动基础
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="电磁场与电磁波/" title="电磁场与电磁波" class="md-nav__link">
+      电磁场与电磁波
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="离散数学/" title="离散数学" class="md-nav__link">
+      离散数学
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="线性代数/" title="线性代数" class="md-nav__link">
+      线性代数
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="计算机组成原理/" title="计算机组成原理" class="md-nav__link">
+      计算机组成原理
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="计算机网络原理/" title="计算机网络原理" class="md-nav__link">
+      计算机网络原理
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="高等数学（一）/" title="高等数学（一）" class="md-nav__link">
+      高等数学（一）
+    </a>
+  </li>
+
+    
   </ul>
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="前言" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="分享库相关链接" class="md-nav__link">
+    分享库相关链接
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="贡献" class="md-nav__link">
+    贡献
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="贡献步骤" class="md-nav__link">
+    贡献步骤
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="贡献规范" class="md-nav__link">
+    贡献规范
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="贡献注意" class="md-nav__link">
+    贡献注意
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" title="许可" class="md-nav__link">
+    许可
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
               
-                <h1 id="_1">五邑大学课程资料整理分享库</h1>
-<h2 id="_2">前言</h2>
+                
+                  <a href="https://github.com/OpenWyu/wyu-courses-lib/blob/master/docs/index.md" title="编辑此页" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="_1">本文档使用指南<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">前言<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p><strong>(以下内容部分引用自<a href="https://github.com/QSCTech/zju-icicles">QSCTech/zju-icicles</a>)</strong></p>
 <p>来到一所大学，从第一次接触许多课，直到一门一门完成，这个过程中我们时常收集起许多资料和情报。</p>
 <p>有些是需要在网上搜索的电子书，每次见到一门新课程，Google 一下教材名称，有的可以立即找到，有的却是要花费许多眼力；有些是历年试卷或者 A4 纸，前人精心收集制作，抱着能对他人有用的想法公开，却需要在各个群或者 CC98 中摸索以至于从学长手中代代相传；有些是上完一门课才恍然领悟的技巧，原来这门课重点如此，当初本可以更轻松地完成得更好……</p>
@@ -210,28 +654,35 @@
 <p>我为这一年一年，这么多人孤军奋战的重复劳动感到不平。</p>
 <p>我希望能够将这些隐晦的、不确定的、口口相传的资料和经验，变为公开的、易于获取的和大家能够共同完善、积累的共享资料。</p>
 <p>我希望只要是前人走过的弯路，后人就不必再走。这是我的信念，也是我建立这个项目的原因。</p>
-<h2 id="_3">分享库资源链接</h2>
+<h2 id="_3">分享库相关链接<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<div class="admonition 额外说明">
+<p class="admonition-title">额外说明</p>
+<p>为了使分享/下载更为方便,现在所有资源的链接均指向 <strong>码云Gitee</strong> 镜像库</p>
+<p>如果你不懂得 <strong>科学上网</strong> ,则建议使用以下的 <strong>Gitee</strong> 镜像库</p>
+</div>
 <ul>
-<li>GitHub: https://github.com/OpenWyu/wyu-courses-lib<ul>
-<li>在线文档: https://openwyu.github.io/wyu-courses-lib/</li>
+<li>GitHub<ul>
+<li><a href="https://github.com/OpenWyu/wyu-courses-lib">资源仓库</a></li>
+<li><a href="https://openwyu.github.io/wyu-courses-lib/">在线文档</a></li>
 </ul>
 </li>
-<li>Gitee: https://gitee.com/OpenWyu/wyu-courses-lib<ul>
-<li>在线文档: https://openwyu.gitee.io/wyu-courses-lib/</li>
+<li>Gitee<ul>
+<li><a href="https://gitee.com/OpenWyu/wyu-courses-lib">资源仓库</a></li>
+<li><a href="https://openwyu.gitee.io/wyu-courses-lib/">在线文档</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="_4">贡献</h2>
-<p><strong>欢迎贡献！</strong></p>
-<p><strong>贡献前请一定先仔细阅读<a href="#贡献步骤">贡献步骤</a>及<a href="#贡献规范">贡献规范</a>！</strong></p>
-<h3 id="_5">贡献步骤</h3>
+<h2 id="_4">贡献<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p><strong>欢迎贡献!​​</strong></p>
+<p><strong>贡献前请一定先仔细阅读 贡献步骤 及 贡献规范 !</strong></p>
+<h3 id="_5">贡献步骤<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
 <p>一般方法(<strong>推荐做法</strong>)</p>
 <ol>
 <li><code>Fork</code> 本项目</li>
 <li>在自己 <code>Fork</code> 的项目里, 使用 <strong>GitHub</strong> 网页端点击 <strong>Upload File</strong> 上传文件</li>
-<li>修改完成后,检查一下是否符合<strong>贡献规范</strong></li>
+<li>修改完成后,检查一下是否符合 <strong>贡献规范</strong></li>
 <li>推送到 <strong>GitHub</strong> 上</li>
 <li>向本项目提出 <code>Pull Request</code></li>
 <li>项目负责人进行审核后通过,你所做的更改就合并到本项目了!</li>
@@ -240,7 +691,7 @@
 <li>
 <p>懒人方法</p>
 <ul>
-<li>可以将资料通过各网盘链接形式<strong>直接附加在 Issue 中</strong>,由维护者进行添加</li>
+<li>可以将资料通过各网盘链接形式 <strong>直接附加在 Issue 中</strong>,由维护者进行添加</li>
 </ul>
 </li>
 <li>
@@ -248,7 +699,7 @@
 <ol>
 <li><code>Fork</code> 本项目</li>
 <li>对自己 <code>Fork</code> 的项目进行 <code>Clone</code></li>
-<li>在本地修改完成后,检查一下是否符合<strong>贡献规范</strong></li>
+<li>在本地修改完成后,检查一下是否符合 <strong>贡献规范</strong></li>
 <li>推送到 <strong>GitHub</strong> 上</li>
 <li>向本项目提出 <code>Pull Request</code></li>
 <li>项目负责人进行审核后通过,你所做的更改就合并到本项目了!</li>
@@ -256,7 +707,7 @@
 </li>
 </ul>
 <p><strong>Note: 同时请留意一下项目的文件组织</strong></p>
-<h3 id="_6">贡献规范</h3>
+<h3 id="_6">贡献规范<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
 <p>文件夹命名格式(请参考已有示例的格式)</p>
@@ -281,72 +732,95 @@
 <li>
 <p>其他建议</p>
 <ul>
-<li>同一分类里的文件过多(超过5个以上)建议<strong>压缩打包</strong>为<code>rar</code>或<code>zip</code>格式</li>
-<li>历年考试的试卷<strong>最好含有答案,并标明清楚</strong>,否则复习价值较低,建议删减</li>
-<li>无用的复习资料请自行判定并做出删减,除非对复习很有用,否则<strong>尽量精简</strong></li>
-<li><strong>说明文档</strong>和<strong>笔记</strong>统一使用<code>markdown</code>标记语言书写,同时编码统一为<code>UTF-8</code></li>
+<li>同一分类里的文件过多(超过5个以上)建议 <strong>压缩打包</strong> 为<code>rar</code>或<code>zip</code>格式</li>
+<li>历年考试的试卷 <strong>最好含有答案,并标明清楚</strong>,否则复习价值较低,建议删减</li>
+<li>无用的复习资料请自行判定并做出删减,除非对复习很有用,否则 <strong>尽量精简</strong></li>
+<li><strong>说明文档</strong> 和 <strong>笔记</strong> 统一使用<code>markdown</code>标记语言书写,同时编码统一为<code>UTF-8</code></li>
 </ul>
 </li>
 </ul>
-<h3 id="_7">贡献注意</h3>
+<h3 id="_7">贡献注意<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
 <ul>
-<li>不要修改<code>docs</code>目录下的文件,该文件夹的文件均由脚本自动生成</li>
-<li>使用<code>markdown</code>的时候,注意该文档系统的<code>markdown</code>渲染器对<strong>无序列表</strong>的缩进空格为<code>4</code>个</li>
-<li>对于教师的评价请一律使用<strong>姓名拼音首字母缩写</strong>,但你也可加上<strong>所教班级</strong>等等信息</li>
+<li>不要修改<code>docs</code>目录下的文件,该文件夹的文件(除<code>index.md</code>之外)均由脚本自动生成</li>
+<li>使用<code>markdown</code>的时候,注意该文档系统的<code>markdown</code>渲染器对 <strong>无序列表</strong> 的缩进空格为<code>4</code>个</li>
+<li>对于教师的评价请一律使用 <strong>姓名拼音首字母缩写</strong>,但你也可加上 <strong>所教班级</strong> 等等信息</li>
 </ul>
-<h2 id="_8">许可</h2>
+<h2 id="_8">许可<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <p>由贡献者编写部分的许可如下：</p>
 <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC-BY-NC-SA：署名-非商业性使用-相同方式共享</a></p>
 <p>其他部分的版权归属于其各自的作者。</p>
+                
+                  
+                
               
-            </div>
+              
+                
+
+
+              
+            </article>
           </div>
-          <footer>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
   
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="SOPC/" class="btn btn-neutral float-right" title="SOPC">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="SOPC/" title="SOPC" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  前进
+                </span>
+                SOPC
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
     </div>
   
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
   </div>
-
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
-        </div>
-      </div>
-
-    </section>
-
-  </div>
-
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
+    </div>
+    
+      <script src="assets/javascripts/application.39abc4af.js"></script>
       
-          <a href="https://github.com/OpenWyu/wyu-courses-lib/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+        
+        
+          
+          <script src="assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+            
+          
+          
+        
       
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
       
-      
-        <span style="margin-left: 15px"><a href="SOPC/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
-</div>
-    <script>var base_url = '.';</script>
-    <script src="js/theme.js" defer></script>
-      <script src="search/main.js" defer></script>
-
-</body>
+    
+  </body>
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2019-10-20 14:56:55
--->
