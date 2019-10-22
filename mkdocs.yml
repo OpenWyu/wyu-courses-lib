@@ -1,3 +1,43 @@
 site_name: 五邑大学课程资料整理分享库
-theme: readthedocs
-repo_url: https://github.com/OpenWyu/wyu-courses-lib/
+site_description: 五邑大学课程资料整理分享库
+site_author: OpenWyu
+site_url: 'https://github.com/OpenWyu/wyu-courses-lib/'
+
+repo_name: 'OpenWyu/wyu-courses-lib'
+repo_url: 'https://github.com/OpenWyu/wyu-courses-lib/'
+edit_uri: 'blob/master/docs/'
+
+theme:
+  name: 'material'
+  language: 'zh'
+  font: false
+
+extra:
+  search:
+    language: 'jp'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+#   - minify:
+#       minify_html: true
+#       minify_js: true

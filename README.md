@@ -1,5 +1,7 @@
 # 五邑大学课程资料整理分享库
 
+[![五邑大学](http://www.wyu.edu.cn/dfiles/9981/images/logo.png)](http://www.wyu.edu.cn)
+
 ## 前言
 
 **(以下内容部分引用自[QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles))**
@@ -16,12 +18,18 @@
 
 我希望只要是前人走过的弯路，后人就不必再走。这是我的信念，也是我建立这个项目的原因。
 
-## 分享库资源链接
+## 分享库相关链接
 
-- GitHub: https://github.com/OpenWyu/wyu-courses-lib
-    - 在线文档: https://openwyu.github.io/wyu-courses-lib/
-- Gitee: https://gitee.com/OpenWyu/wyu-courses-lib
-    - 在线文档: https://openwyu.gitee.io/wyu-courses-lib/
+> 为了使分享/下载更为方便,现在所有资源的链接均指向 **码云Gitee** 镜像库
+>
+> 如果你不懂得 **科学上网** ,则建议使用以下的 **Gitee** 镜像库
+
+- GitHub
+    - [资源仓库](https://github.com/OpenWyu/wyu-courses-lib)
+    - [在线文档](https://openwyu.github.io/wyu-courses-lib/)
+- Gitee
+    - [资源仓库](https://gitee.com/OpenWyu/wyu-courses-lib)
+    - [在线文档](https://openwyu.gitee.io/wyu-courses-lib/)
 
 ## 贡献
 
@@ -74,7 +82,7 @@
 
 ### 贡献注意
 
-- 不要修改`docs`目录下的文件,该文件夹的文件均由脚本自动生成
+- 不要修改`docs`目录下的文件,该文件夹的文件(除`index.md`之外)均由脚本自动生成
 - 使用`markdown`的时候,注意该文档系统的`markdown`渲染器对**无序列表**的缩进空格为`4`个
 - 对于教师的评价请一律使用**姓名拼音首字母缩写**,但你也可加上**所教班级**等等信息
 
