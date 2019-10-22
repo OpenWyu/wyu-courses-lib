@@ -1,5 +1,7 @@
 # 五邑大学课程资料整理分享库
 
+[![Requirements Status](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements.svg?branch=master)](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements/?branch=master)
+
 [![五邑大学](http://www.wyu.edu.cn/dfiles/9981/images/logo.png)](http://www.wyu.edu.cn)
 
 ## 前言
