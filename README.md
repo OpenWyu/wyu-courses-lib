@@ -2,7 +2,7 @@
 
 [![Requirements Status](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements.svg?branch=master)](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements/?branch=master)
 
-[![五邑大学](http://www.wyu.edu.cn/dfiles/9981/images/logo.png)](http://www.wyu.edu.cn)
+[![五邑大学](https://raw.githubusercontent.com/LengSword/MyPicturesRepo/master/images/wuyi_university.png)](http://www.wyu.edu.cn)
 
 ## 前言
 
