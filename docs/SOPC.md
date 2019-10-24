@@ -17,9 +17,7 @@
         - [SOPC简答（老师课上发的）.pptx](https://gitee.com/OpenWyu/wyu-courses-lib/raw/master/SOPC/习题/SOPC简答（老师课上发的）.pptx)
     - 复习资料
         - [SOPC复习.docx](https://gitee.com/OpenWyu/wyu-courses-lib/raw/master/SOPC/复习资料/SOPC复习.docx)
-        - 课件
-            - [C2_Nios2开发流程_M.pdf](https://gitee.com/OpenWyu/wyu-courses-lib/raw/master/SOPC/复习资料/课件/C2_Nios2开发流程_M.pdf)
-            - [C8_1基于自定义PWM的乐曲演奏(1).pdf](https://gitee.com/OpenWyu/wyu-courses-lib/raw/master/SOPC/复习资料/课件/C8_1基于自定义PWM的乐曲演奏(1).pdf)
+        - [课件.rar](https://gitee.com/OpenWyu/wyu-courses-lib/raw/master/SOPC/复习资料/课件.rar)
     - 课程设计
         - [基于nios的4路抢答器.doc](https://gitee.com/OpenWyu/wyu-courses-lib/raw/master/SOPC/课程设计/基于nios的4路抢答器.doc)
         - [基于自定义外设PWM的乐曲演奏实验报告.doc](https://gitee.com/OpenWyu/wyu-courses-lib/raw/master/SOPC/课程设计/基于自定义外设PWM的乐曲演奏实验报告.doc)
