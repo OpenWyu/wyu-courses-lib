@@ -1,4 +1,8 @@
-# 本文档使用指南
+# 五邑大学课程资料整理分享库
+
+[![Requirements Status](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements.svg?branch=master)](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements/?branch=master)
+
+[![五邑大学](https://raw.githubusercontent.com/LengSword/MyPicturesRepo/master/images/wuyi_university.png)](http://www.wyu.edu.cn)
 
 ## 前言
 
@@ -18,10 +22,9 @@
 
 ## 分享库相关链接
 
-!!! 额外说明
-    为了使分享/下载更为方便,现在所有资源的链接均指向 **码云Gitee** 镜像库
-
-    如果你不懂得 **科学上网** ,则建议使用以下的 **Gitee** 镜像库
+> 为了使分享/下载更为方便,现在所有资源的链接均指向 **码云Gitee** 镜像库
+>
+> 如果你不懂得 **科学上网** ,则建议使用以下的 **Gitee** 镜像库
 
 - GitHub
     - [资源仓库](https://github.com/OpenWyu/wyu-courses-lib)
@@ -32,9 +35,9 @@
 
 ## 贡献
 
-**欢迎贡献!​​**
+**欢迎贡献!**
 
-**贡献前请一定先仔细阅读 贡献步骤 及 贡献规范 !**
+**贡献前请一定先仔细阅读[贡献步骤](#贡献步骤)及[贡献规范](#贡献规范)！**
 
 ### 贡献步骤
 
@@ -82,7 +85,7 @@
 
 ### 贡献注意
 
-- 不要修改`docs`目录下的文件,该文件夹的文件(除`index.md`之外)均由脚本自动生成
+- 不要修改`docs`目录下的文件,该文件夹的文件均由脚本自动生成
 - 使用`markdown`的时候,注意该文档系统的`markdown`渲染器对 **无序列表** 的缩进空格为`4`个
 - 对于教师的名字可以使用 **姓名拼音首字母缩写**,但为了确定是哪个教师最好加上 **所教班级** 等等信息
 
