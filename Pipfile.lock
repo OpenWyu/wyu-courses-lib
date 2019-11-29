@@ -25,7 +25,6 @@
         },
         "htmlmin": {
             "hashes": [
-                "sha256:2059274cc492b8b33daf8739222604342057ae0e23363cfce449718854a3d5ac",
                 "sha256:50c1ef4630374a5d723900096a961cff426dff46b48f34d194a81bbe14eca178"
             ],
             "version": "==0.1.12"
@@ -39,7 +38,6 @@
         },
         "jsmin": {
             "hashes": [
-                "sha256:40a09457818021156ea0789e0f4027ba985a9eacd41b91bc9188ce06900c4c9a",
                 "sha256:b6df99b2cd1c75d9d342e4335b535789b8da9107ec748212706ef7bbe5c2553b"
             ],
             "version": "==2.2.2"
@@ -123,10 +121,10 @@
         },
         "pygments": {
             "hashes": [
-                "sha256:83ec6c6133ca6b529b7ff5aa826328fd14b5bb02a58c37f4f06384e96a0f94ab",
-                "sha256:b7949de3d396836085fea596998b135a22610bbcc4f2abfe9e448e44cbc58388"
+                "sha256:2a3fe295e54a20164a9df49c75fa58526d3be48e14aceba6d6b1e8ac0bfd6f1b",
+                "sha256:98c8aa5a9f778fcd1026a17361ddaf7330d1b7c62ae97c3bb0ae73e0b9b6b0fe"
             ],
-            "version": "==2.5.1"
+            "version": "==2.5.2"
         },
         "pymdown-extensions": {
             "hashes": [
