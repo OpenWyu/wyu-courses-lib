@@ -27,7 +27,8 @@ def list_files(course: str):
         # Intent level
         level = root.count(os.sep)
         # Make the separator unique
-        root = root.replace(os.sep, os.altsep)
+        if os.name != 'posix':
+            root = root.replace(os.sep, os.altsep)
         indent = ' ' * 4 * level
         filelist_md += '{}- {}\n'.format(indent, os.path.basename(root))
         sub_indent = ' ' * 4 * (level + 1)
