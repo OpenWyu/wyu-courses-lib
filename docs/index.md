@@ -1,13 +1,10 @@
 # 五邑大学课程资料整理分享库
 
 [![Requirements Status](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements.svg?branch=master)](https://requires.io/github/OpenWyu/wyu-courses-lib/requirements/?branch=master)
-
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/OpenWyu/wyu-courses-lib/Deploy-mkdocs-gh-pages)](https://github.com/OpenWyu/wyu-courses-lib/actions)
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/OpenWyu/wyu-courses-lib)](https://github.com/OpenWyu/wyu-courses-lib)
-
 [![GitHub issues](https://img.shields.io/github/issues/OpenWyu/wyu-courses-lib)](https://github.com/OpenWyu/wyu-courses-lib/issues)
-
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/OpenWyu/wyu-courses-lib)](https://github.com/OpenWyu/wyu-courses-lib/pulls)
 
 [![五邑大学](https://raw.githubusercontent.com/LengSword/MyPicturesRepo/master/images/wuyi_university.png)](http://www.wyu.edu.cn)
