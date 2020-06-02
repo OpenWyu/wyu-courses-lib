@@ -11,7 +11,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
 
@@ -31,6 +31,6 @@ jobs:
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-      env:
+      with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: ./site
