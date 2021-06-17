@@ -7,7 +7,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/OpenWyu/wyu-courses-lib)](https://github.com/OpenWyu/wyu-courses-lib/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/OpenWyu/wyu-courses-lib)](https://github.com/OpenWyu/wyu-courses-lib/pulls)
 
-[![五邑大学](https://hub.fastgit.org/LengSword/MyPicturesRepo/blob/main/images/wuyi_university.png)](http://www.wyu.edu.cn)
+[![五邑大学](https://raw.fastgit.org/LengSword/MyPicturesRepo/main/images/wuyi_university.png)](http://www.wyu.edu.cn)
 
 ## 前言
 
