@@ -7,8 +7,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/OpenWyu/wyu-courses-lib)](https://github.com/OpenWyu/wyu-courses-lib/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/OpenWyu/wyu-courses-lib)](https://github.com/OpenWyu/wyu-courses-lib/pulls)
 
-[![五邑大学](https://raw.githubusercontent.com/LengSword/MyPicturesRepo/master/images/wuyi_university.png)](http://www.wyu.edu.cn)
-
+[![五邑大学](https://hub.fastgit.org/LengSword/MyPicturesRepo/blob/main/images/wuyi_university.png)](http://www.wyu.edu.cn)
 
 ## 前言
 
@@ -28,16 +27,15 @@
 
 ## 分享库相关链接
 
-> 为了使分享/下载更为方便,现在所有资源的链接均指向 **码云Gitee** 镜像库
+> 为了使分享/下载更为方便,现在所有资源的链接均指向 **FastGit** 镜像加速站
 >
-> 如果你不懂得 **科学上网** ,则建议使用以下的 **Gitee** 镜像库
+> 如果是国内用户,则建议使用以下的 **FastGit** 镜像加速站
 
 - GitHub
     - [资源仓库](https://github.com/OpenWyu/wyu-courses-lib)
     - [在线文档](https://openwyu.github.io/wyu-courses-lib/)
-- Gitee
-    - [资源仓库](https://gitee.com/OpenWyu/wyu-courses-lib)
-    - [在线文档](https://openwyu.gitee.io/wyu-courses-lib/)
+- FastGit
+    - [资源仓库](https://hub.fastgit.org/OpenWyu/wyu-courses-lib)
 
 ## 贡献
 

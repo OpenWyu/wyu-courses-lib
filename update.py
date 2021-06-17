@@ -11,9 +11,9 @@ README_MD = ['README.md', 'readme.md', 'index.md']
 
 TXT_EXTENSIONS = ['md', 'txt']
 
-GITEE_REPO_BASE_URL = 'https://gitee.com/OpenWyu/wyu-courses-lib/'
-TXT_URL_PREFIX = GITEE_REPO_BASE_URL + 'blob/master/'
-BIN_URL_PREFIX = GITEE_REPO_BASE_URL + 'raw/master/'
+FASTGITHUB_REPO_BASE_URL = 'https://hub.fastgit.org/OpenWyu/wyu-courses-lib/'
+TXT_URL_PREFIX = FASTGITHUB_REPO_BASE_URL + 'blob/master/'
+BIN_URL_PREFIX = FASTGITHUB_REPO_BASE_URL + 'raw/master/'
 
 
 def get_readme_path(root: str, file: str):
