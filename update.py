@@ -9,11 +9,8 @@ import os
 EXCLUDE_DIRS = ['.git', '.github', '.vscode', 'docs', 'site', 'assets']
 README_MD = ['README.md', 'readme.md', 'index.md']
 
-TXT_EXTENSIONS = ['md', 'txt']
-
-FASTGITHUB_REPO_BASE_URL = 'https://hub.fastgit.org/OpenWyu/wyu-courses-lib/'
-TXT_URL_PREFIX = FASTGITHUB_REPO_BASE_URL + 'blob/master/'
-BIN_URL_PREFIX = FASTGITHUB_REPO_BASE_URL + 'raw/master/'
+FASTGITHUB_REPO_BASE_URL = 'https://raw.fastgit.org/OpenWyu/wyu-courses-lib/'
+BRANCH_PREFIX = FASTGITHUB_REPO_BASE_URL + 'master/'
 
 
 def get_readme_path(root: str, file: str):
@@ -34,12 +31,8 @@ def list_files(course: str):
         sub_indent = ' ' * 4 * (level + 1)
         for file in files:
             if file not in README_MD:
-                if file.split('.')[-1] in TXT_EXTENSIONS:
-                    txt_file_path = f'{TXT_URL_PREFIX}{root}/{file}'
-                    filelist_md += f'{sub_indent}- [{file}]({txt_file_path})\n'
-                else:
-                    bin_file_path = f'{BIN_URL_PREFIX}{root}/{file}'
-                    filelist_md += f'{sub_indent}- [{file}]({bin_file_path})\n'
+                file_path = f'{BRANCH_PREFIX}{root}/{file}'
+                filelist_md += f'{sub_indent}- [{file}]({file_path})\n'
             else:
                 readme_path = get_readme_path(root, file)
     return filelist_md, readme_path
